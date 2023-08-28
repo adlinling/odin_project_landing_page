@@ -23,7 +23,7 @@ li{
     background-color:#1F2937;
     color:white;
     /*padding: top leftright bottom*/
-    padding:20px 300px 20px;
+    padding:20px 0px 20px;
 }
 
 
@@ -44,10 +44,11 @@ li{
 .top{
     display:flex;
     flex:1;
+    justify-content: center;
     background-color:#1F2937;
     color:white;
-     /*padding: top leftright bottom*/
-    padding:50px 300px 150px;
+    /*padding: top leftright bottom*/
+    padding:50px 0px 40px;
 }
 
 
@@ -55,6 +56,9 @@ li{
     display:flex;
     flex-direction:column;
     flex:1;
+    /*padding: top leftright bottom*/
+    //padding:50px 30px 40px 40px;
+    margin-left:60px;
 }
 
 .hero-main{
@@ -62,6 +66,7 @@ li{
     font-size:48px;
     color:#F9FAF8;
     width:70%;
+
 }
 
 
@@ -74,7 +79,9 @@ li{
 
 
 button.hero{
-    width:100px
+    width:100px;
+    background-color:#3882F6;
+    color:white;
 }
 
 .top-right{
@@ -89,21 +96,48 @@ button.hero{
 }
 
 .section-one{
+    display:flex;
     flex:1;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     background-color:white;
+    /*padding: top leftright bottom*/
+    padding:100px 0px 200px;
+}
+
+.randoinfo{
+    font-size:36px;
+    font-weight: bold;
+    color:#1F2937;
+    text-align:center;
+    padding:20px 0px;
 }
 
 .section-one-imgs{
+    display:flex;
+    width:40%;
+    justify-content:space-evenly;
+    
+}
+
+.sub-section-one{
+    width:100px;
+    text-align:center;
+}
+.section-one-img{
     width:100px;
     height:100px;
     border:2px rgb(69, 93, 230) solid;
     border-radius: 10%;
+    margin-bottom:10px;
 }
 
 
 .section-two{
     flex:1;
     background-color:rgb(209, 207, 207);
+    padding:100px 0px 200px;
 }
 
 .bottom{
