@@ -34,21 +34,23 @@ li{
     font-weight: bold;
     color:#F9FAF8;
     font-size:24px;
+    margin-left:60px;
 }
 
 .header-right{
-    padding:20px 
+    padding:20px;
+    margin-right:70px;
 }
 
 
 .top{
     display:flex;
     flex:1;
-    justify-content: center;
+    justify-content: space-between;
     background-color:#1F2937;
     color:white;
     /*padding: top leftright bottom*/
-    padding:50px 0px 40px;
+    padding:50px 0px 100px;
 }
 
 
@@ -89,9 +91,9 @@ button.hero{
     flex:1;
     justify-content: center;
     align-items: center;
-    min-width:200px;
+    min-width:150px;
     background-color:gray;
-    margin:0px 30px 0px 50px;
+    margin:0px 100px 0px 50px;
   
 }
 
@@ -135,11 +137,25 @@ button.hero{
 
 
 .section-two{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
     flex:1;
     background-color:rgb(209, 207, 207);
-    padding:100px 0px 200px;
+    padding:100px 0px 100px;
 }
 
+
+.section-two-quote{
+    width:400px;
+    padding:10px 0px;
+}
+
+.section-two-speaker{
+    width:400px;
+    text-align:right;
+}
 .bottom{
     flex:1;
     background-color:#fffcfc;
