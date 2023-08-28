@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction:column;
+    margin:0;
+}
+
+
+.header{
+    flex:1;
+    background-color:#1F2937;
+    color:white;
+}
+
+
+.top{
+    flex:1;
+    background-color:#1F2937;
+    color:white;
+}
+
+
+.section-one{
+    flex:1;
+    background-color:white;
+}
+
+.section-one-imgs{
+    width:100px;
+    height:100px;
+    border:2px rgb(69, 93, 230) solid;
+    border-radius: 10%;
+}
+
+
+.section-two{
+    flex:1;
+    background-color:rgb(209, 207, 207);
+}
+
+.bottom{
+    flex:1;
+    background-color:#fffcfc;
+}
+
+
+.footer{
+    flex:1;
+    background-color:#1F2937;
+}
