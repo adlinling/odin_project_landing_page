@@ -51,7 +51,7 @@ li{
     flex:1;
     justify-content: center;
     /*background-color:#1F2937;*/
-    background-color:#1ea868;
+    background-color:#1F2937;
     color:white;
 
 }
@@ -61,7 +61,7 @@ li{
     flex-wrap:wrap;
     align-items: center;
     gap:30px;
-    background-color:#948293;
+    background-color:#1F2937;
     width:80%;
     /*padding: top leftright bottom*/
     padding:50px 0px 100px;
@@ -105,14 +105,20 @@ button.hero{
 
 .top-right{
     display:flex;
+    flex-direction:column;
     flex:1;
     min-width:300px;
     height:300px;
     justify-content: center;
     align-items: center;
-    background-color:gray;
+    background-color:#1F2937;
 
   
+}
+
+a.topnav{
+    text-decoration: none;
+    color:white;
 }
 
 .section-one{
@@ -153,6 +159,12 @@ button.hero{
     margin-bottom:10px;
 }
 
+
+.webest{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
 
 .section-two{
     display:flex;
