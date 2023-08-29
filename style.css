@@ -2,7 +2,7 @@ body{
     display:flex;
     flex-direction:column;
     margin:0;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -35,12 +35,14 @@ li{
     font-weight: bold;
     color:#F9FAF8;
     font-size:24px;
-    margin-left:120px;
+    margin-left:90px;
+
 }
 
 .header-right{
     padding:20px;
     margin-right:90px;
+
 }
 
 
@@ -79,7 +81,7 @@ li{
     font-weight: bolder;
     font-size:48px;
     color:#F9FAF8;
-    font-family: Arial, Helvetica, sans-serif;
+
 
 }
 
@@ -89,6 +91,7 @@ li{
     color:#E5E7EB;    
     width:90%;
     padding:10px 0px;
+
 }
 
 
@@ -163,13 +166,17 @@ button.hero{
 
 
 .section-two-quote{
-    width:400px;
+    width:50%;
     padding:10px 0px;
+    font-size:36px;
+    font-style: italic;
+    color:#1F2937;
 }
 
 .section-two-speaker{
-    width:400px;
+    width:50%;
     text-align:right;
+    font-size:36px;
 }
 .bottom{
     display:flex;
