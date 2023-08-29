@@ -2,6 +2,7 @@ body{
     display:flex;
     flex-direction:column;
     margin:0;
+
 }
 
 
@@ -34,40 +35,51 @@ li{
     font-weight: bold;
     color:#F9FAF8;
     font-size:24px;
-    margin-left:60px;
+    margin-left:120px;
 }
 
 .header-right{
     padding:20px;
-    margin-right:70px;
+    margin-right:90px;
 }
 
 
 .top{
     display:flex;
     flex:1;
-    justify-content: space-between;
-    background-color:#1F2937;
+    justify-content: center;
+    /*background-color:#1F2937;*/
+    background-color:#1ea868;
     color:white;
+
+}
+
+.top-container{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+    gap:30px;
+    background-color:#948293;
+    width:80%;
     /*padding: top leftright bottom*/
     padding:50px 0px 100px;
 }
-
 
 .top-left{
     display:flex;
     flex-direction:column;
     flex:1;
-    /*padding: top leftright bottom*/
-    //padding:50px 30px 40px 40px;
+    min-width:300px;
+    /*padding (column): top right bottom left*/
+    padding:10px 10px 30px 10px;
     margin-left:60px;
 }
 
 .hero-main{
-    font-weight: extra-bold;
+    font-weight: bolder;
     font-size:48px;
     color:#F9FAF8;
-    width:70%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -82,18 +94,21 @@ li{
 
 button.hero{
     width:100px;
+    height:30px;
     background-color:#3882F6;
     color:white;
+    border-radius: 8%;
 }
 
 .top-right{
     display:flex;
     flex:1;
+    min-width:300px;
+    height:300px;
     justify-content: center;
     align-items: center;
-    min-width:150px;
     background-color:gray;
-    margin:0px 100px 0px 50px;
+
   
 }
 
@@ -157,12 +172,26 @@ button.hero{
     text-align:right;
 }
 .bottom{
+    display:flex;
+    justify-content:center;
     flex:1;
     background-color:#fffcfc;
+    padding:100px 0px 100px;
+}
+
+.calltoaction{
+    display:flex;
+    gap:50px;
+    background-color:#3882F6;
+    color:white;
+    padding:30px 80px 30px;
 }
 
 
 .footer{
+    display:flex;
+    justify-content:center;
+    padding:30px 80px 30px;
     flex:1;
     background-color:#1F2937;
     color:white;
